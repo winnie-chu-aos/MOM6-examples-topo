@@ -22,7 +22,7 @@ NIHALO = 3                      ! default = 4
 NJHALO = 3                      ! default = 4
                                 ! The number of halo points on each side in the y-direction.  How this is set
                                 ! varies with the calling component and static or dynamic memory configuration.
-! LAYOUT = 2, 1                 !
+! LAYOUT = 2, 2                 !
                                 ! The processor layout that was actually used.
 
 ! === module MOM ===
@@ -65,9 +65,9 @@ AXIS_UNITS = "k"                ! default = "degrees"
 SOUTHLAT = 30.0                 !   [k]
                                 ! The southern latitude of the domain or the equivalent starting value for the
                                 ! y-axis.
-LENLAT = 10.0                   !   [k]
+LENLAT = 1000.0                   !   [k]
                                 ! The latitudinal or y-direction length of the domain.
-LENLON = 200.0                  !   [k]
+LENLON = 2000.0                  !   [k]
                                 ! The longitudinal or x-direction length of the domain.
 TOPO_CONFIG = "seamount"        !
                                 ! This specifies how bathymetry is specified:
