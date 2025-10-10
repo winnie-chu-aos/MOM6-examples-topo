@@ -14,6 +14,26 @@
 "ocean_model","RV","RV","prog","all",.false.,"none",2
 "ocean_model","PV","PV","prog","all",.false.,"none",2
 
+# figuring out KPP
+"ocean_model","KHTH_u","KHTH_u","prog","all",.false.,"none",2
+"ocean_model","KHTH_v","KHTH_v","prog","all",.false.,"none",2
+"ocean_model","KHTH_t","KHTH_t","prog","all",.false.,"none",2
+"ocean_model","KPP_Ws","KPP_Ws","prog","all",.false.,"none",2
+"ocean_model","KPP_OBLdepth","KPP_OBLdepth","prog","all",.false.,"none",2
+#"ocean_model","KPP_BulkDrho","KPP_BulkDrho","prog","all",.false.,"none",2
+#"ocean_model","KPP_BulkUz2","KPP_BulkUz2","prog","all",.false.,"none",2
+#"ocean_model","KPP_BulkRi","KPP_BulkRi","prog","all",.false.,"none",2
+#"ocean_model","KPP_sigma","KPP_sigma","prog","all",.false.,"none",2
+#"ocean_model","KPP_Vt2","KPP_Vt2","prog","all",.false.,"none",2
+"ocean_model","KPP_uStar","KPP_uStar","prog","all",.false.,"none",2
+#"ocean_model","KPP_buoyFlux","KPP_buoyFlux","prog","all",.false.,"none",2
+"ocean_model","KPP_Kheat","KPP_Kheat","prog","all",.false.,"none",2
+"ocean_model","KPP_Kd_in","KPP_Kd_in","prog","all",.false.,"none",2
+#"ocean_model","KPP_Usurf","KPP_Usurf","prog","all",.false.,"none",2
+#"ocean_model","KPP_Vsurf","KPP_Vsurf","prog","all",.false.,"none",2
+"ocean_model","KPP_N2","KPP_N2","prog","all",.false.,"none",2
+
+
 # comparison with Huaiyu
 "ocean_model","SSH","zeta","prog","all",.false.,"none",2 # free-surface elevation
 "ocean_model","u","u","prog","all",.false.,"none",2
@@ -21,6 +41,7 @@
 "ocean_model","temp","temp","prog","all",.false.,"none",2
 "ocean_model","Kv_u","Kv_u","prog","all",.false.,"none",2
 "ocean_model","Kv_v","Kv_v","prog","all",.false.,"none",2
+"ocean_model","Kd_heat","Kd_heat","prog","all",.false.,"none",2
 "ocean_model","bbl_thick_u","bbl_thick_u","prog","all",.false.,"none",2
 "ocean_model","bbl_thick_v","bbl_thick_v","prog","all",.false.,"none",2
 

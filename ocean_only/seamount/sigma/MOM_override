@@ -3,3 +3,11 @@
 !REGRIDDING_COORDINATE_MODE = "SIGMA" 
 !REMAPPING_SCHEME = "PPM_IH4"
 !MIN_THICKNESS = 0.1
+
+! Time-stepping issues
+#override DT = 700.0
+#override DT_FORCING = 1400.0
+
+! Tuning to get similar to ROMS
+#override HMIX_FIXED = 200.0 
+#override CDRAG = 0.02
